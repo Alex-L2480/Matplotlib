@@ -1,0 +1,10 @@
+#4. Граничные значения осей и локаторы для расположения меток на них
+import numpy as np
+import matplotlib.pyplot as plt
+
+fig = plt.figure(figsize=(7,4))
+ax = fig.add_subplot()
+ax.plot(np.arange(1,5,0.25))
+
+ax.set(xlim=(-5,30),ylim=(-1,6))#granichnye znacheniya osey
+plt.show()
