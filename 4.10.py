@@ -1,3 +1,4 @@
+#4. Граничные значения осей и локаторы для расположения меток на них
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator,LinearLocator,MultipleLocator
